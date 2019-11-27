@@ -1,6 +1,13 @@
+a:hover{
+    color: black; 
+    font-size: 25px
+}
 #title{
    color: rgb(12, 43, 128)
 }
 body{
     background-color: powderblue;
+}
+th{
+    color: brown
 }
