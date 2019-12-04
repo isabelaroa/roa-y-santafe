@@ -2,12 +2,36 @@ a:hover{
     color: black; 
     font-size: 25px
 }
+
+{
+    margin: auto;
+}
+
+p{
+    margin: 20px;
+    border: 2px solid grey
+}
+p{
+    padding: 20px;
+}
+
 #title{
    color: rgb(12, 43, 128)
 }
 body{
     background-color: powderblue;
+    text-align: center;
+    margin-top: 45px;
 }
 th{
     color: brown
+}
+
+table{
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+}
+#tabla{
+    margin: auto;
 }
