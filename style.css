@@ -34,4 +34,8 @@ table{
 }
 #tabla{
     margin: auto;
+    background-color: rgba(64, 109, 146, 0.712), alpha)
+    width: 10%;
+    height: 10%;
+    border: 2px solid gray; 
 }
