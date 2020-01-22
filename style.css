@@ -39,3 +39,16 @@ table{
     height: 10%;
     border: 2px solid gray; 
 }
+
+#imagen:hover{
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transform: scaleX(3);
+    filter: sepia(30%);
+}
+
+#mimagen:hover{
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transform: matrix(2,4,5,4,6,4)
+}
