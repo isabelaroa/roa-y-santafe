@@ -52,3 +52,45 @@ table{
     transition-timing-function: ease-in;
     transform: matrix(2,4,5,4,6,4)
 }
+
+#rooa{
+    animation-name: roaa;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes roaa{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    50%{
+        filter: grayscale(100%);
+        transform: scaleX(3);
+    }
+    100%{
+        transform: translate3d(20px,30px,60px)
+    }
+}
+#title{
+    animation-name: papi;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+    animation-direction: alternate-reverse;
+}
+@keyframes papi{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    50%{
+        filter: grayscale(100%);
+        transform: scaleX(3);
+    }
+    100%{
+        transform: rotateZ(270deg)
+    }
+}
